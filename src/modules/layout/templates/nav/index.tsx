@@ -32,7 +32,7 @@ export default async function Nav() {
               data-testid="nav-store-link"
             >
               <Image
-                src="/bamagate.sg.png"
+                src="/logo.png"
                 alt="Bamagate"
                 width={160}
                 height={40}
