@@ -1,4 +1,4 @@
-import { Button, Heading } from "@medusajs/ui"
+ï»¿import { Button, Heading } from "@medusajs/ui"
 import Link from "next/link"
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
             level="h2"
             className="text-2xl leading-10 text-ui-fg-subtle font-normal"
           >
-            Home & Kitchen — Delivered to Singapore
+            Home & Kitchen - Delivered to Singapore
           </Heading>
         </span>
         <Link href="/sg/store">
