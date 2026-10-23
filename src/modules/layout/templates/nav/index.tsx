@@ -1,4 +1,5 @@
-import { Suspense } from "react"
+﻿import { Suspense } from "react"
+import Image from "next/image"
 
 import { listRegions } from "@lib/data/regions"
 import { listLocales } from "@lib/data/locales"
@@ -28,10 +29,16 @@ export default async function Nav() {
           <div className="flex items-center h-full">
             <LocalizedClientLink
               href="/"
-              className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
               data-testid="nav-store-link"
             >
-              Bamagate
+              <Image
+                src="/bamagate.sg.png"
+                alt="Bamagate"
+                width={160}
+                height={40}
+                style={{ objectFit: "contain" }}
+                priority
+              />
             </LocalizedClientLink>
           </div>
 
